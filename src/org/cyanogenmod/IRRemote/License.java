@@ -1,4 +1,4 @@
-package com.fishjord.irwidget;
+package org.cyanogenmod.IRRemote;
 
 import android.app.Activity;
 import android.os.Bundle;

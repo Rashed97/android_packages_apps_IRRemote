@@ -1,8 +1,8 @@
-package com.fishjord.irwidget.ir;
+package org.cyanogenmod.IRRemote.ir;
 
 import java.lang.reflect.*;
 
-import com.fishjord.irwidget.ir.codes.IRCommand;
+import org.cyanogenmod.IRRemote.ir.codes.IRCommand;
 
 import android.app.Activity;
 import android.widget.Toast;

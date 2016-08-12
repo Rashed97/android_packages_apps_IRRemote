@@ -1,4 +1,4 @@
-package com.fishjord.irwidget;
+package org.cyanogenmod.IRRemote;
 
 import java.util.List;
 
@@ -18,12 +18,12 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 
-import com.fishjord.irwidget.ir.IRDAService;
-import com.fishjord.irwidget.ir.IRService;
-import com.fishjord.irwidget.ir.codes.CodeManager;
-import com.fishjord.irwidget.ir.codes.IRButton;
-import com.fishjord.irwidget.ir.codes.IRCommand;
-import com.fishjord.irwidget.ir.codes.Manufacturer;
+import org.cyanogenmod.IRRemote.ir.IRDAService;
+import org.cyanogenmod.IRRemote.ir.IRService;
+import org.cyanogenmod.IRRemote.ir.codes.CodeManager;
+import org.cyanogenmod.IRRemote.ir.codes.IRButton;
+import org.cyanogenmod.IRRemote.ir.codes.IRCommand;
+import org.cyanogenmod.IRRemote.ir.codes.Manufacturer;
 
 public class MainActivity extends Activity {
 	private CodeManager codeManager;

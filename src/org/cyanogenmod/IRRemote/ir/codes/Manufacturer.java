@@ -1,11 +1,11 @@
-package com.fishjord.irwidget.ir.codes;
+package org.cyanogenmod.IRRemote.ir.codes;
 
 import java.util.List;
 
 public class Manufacturer {
 	private final List<IRButton> buttons;
 	private final String name;
-	
+
 	Manufacturer(String name, List<IRButton> buttons) {
 		this.name = name;
 		this.buttons = buttons;

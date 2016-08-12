@@ -1,4 +1,4 @@
-package com.fishjord.irwidget.ir.codes;
+package org.cyanogenmod.IRRemote.ir.codes;
 
 public class IRButton {
 	private final String name;
@@ -18,13 +18,13 @@ public class IRButton {
 	public String getDisplay() {
 		return display;
 	}
-	
+
 	public String getGroup() {
 		return group;
 	}
 	public IRCommand getCommand() {
 		return command;
 	}
-	
-	
+
+
 }
